@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 int main(){
-    int choice;
+    int choice,i;
     float area,radius,length,width,height,Base;
 
 cout<<"1-Area of Circle"<<endl;
@@ -43,6 +43,8 @@ switch(choice){
     cout<<"\nInvalid Choice....choose from given option :) ";
     }
  cout<<"\nArea ::"<<area<<endl;
+ cout<<" Enter any key to exit";
+    cin>>i;
 
 
     return 0;
